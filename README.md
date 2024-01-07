@@ -1,7 +1,7 @@
-# Ionic3-MultilenguajeSample - Demostración de idiomas en Ionic 3 + Angular 5 + ngx-translate 9
+# Ionic3
 
 
-Proyecto de demostración simple que muestra cómo agregar traducciones a su aplicación Ionic + Angular.
+Proyecto de Aplicación Turistica del Parque Nacional Podocarpus
 
 Es un proyecto creado con Ionic (http://ionicframework.com/docs/).
 
@@ -29,12 +29,12 @@ $ npm install -g ionic cordova
 1. Descargamos el repositorio:
 
 ```
-$ git clone https://github.com/CodeMachAC/Ionic3-MultilenguajeSample.git
+$ git clone https://github.com/JorgePucha/Podocarpus_App
 ```
 
 2. Entramos a la carpeta:
 ```
-$ cd Ionic3-MultilenguajeSample/
+$ cd Podocarpus_App/
 ```
 
 3. Instalamos los modulos necesarios:
@@ -56,15 +56,6 @@ $ ionic serve --lab
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Code editing. Redefined.
 
-## Versionamiento
-
-El control de versiones en GitHub, se auxilio con:
-
-* [GitKraken](https://www.gitkraken.com/) - The legendary Git GUI client for Windows, Mac and Linux.
-
-## Autores
-
-* **Ángel Careaga** - *Trabajo inicial* - [AngelCareaga](https://github.com/AngelCareaga)
 
 ## Licencia
 
