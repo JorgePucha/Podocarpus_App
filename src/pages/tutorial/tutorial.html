@@ -1,0 +1,28 @@
+<ion-header no-shadow>
+  <ion-navbar>
+      <!-- <ion-buttons end *ngIf="showSkip">
+          <button ion-button (click)="startApp()" color="primary">Saltar</button>
+      </ion-buttons> -->
+      <ion-buttons end *ngIf="showSkip">
+        <button ion-button (click)="startApp()" color="primary">Saltar</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce class="bg-img">
+  <ion-slides (ionWillChange)="onSlideChangeStart($event)" pager>
+      <ion-slide *ngFor="let slide of slides">
+          <img [src]="slide.image" class="slide-image" alt="slide.title" />
+          <h2 class="slide-title" [innerHTML]="slide.title"></h2>
+          <p [innerHTML]="slide.description"></p>
+      </ion-slide>
+      <ion-slide>
+          <img src="assets/imgs/ica-slidebox-img-4.png" class="slide-image" alt="slide" />
+          <h2 class="slide-title">Ready for hangout?</h2>
+          <button ion-button icon-right large clear (click)="startApp()">
+      Continuar a la app
+      <ion-icon name="jet"></ion-icon>
+    </button>
+      </ion-slide>
+  </ion-slides>
+</ion-content>

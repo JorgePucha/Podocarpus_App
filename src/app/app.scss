@@ -1,0 +1,44 @@
+.titulo{
+    color:map-get($colors,wet_asphat);
+    text-align:center;
+}
+p{
+    color:map-get($colors,midnight_blue);
+}
+.user{
+    img{
+        margin: 0 auto;
+        display: block;
+        max-width:100px;
+        box-shadow:0 1px 2 px rgba(black,.3);
+        border-radius: 50%;
+    }
+    h1{
+        color:#333;
+        text-align: center;
+        margin:10px 0 20px;
+    }
+    &.playlist img {
+        border-radius:4px;
+    }
+    
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    .centrado{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+     h3{
+        color: white;
+     }
+
+}
+.new-background {
+    background-color: white;
+  }

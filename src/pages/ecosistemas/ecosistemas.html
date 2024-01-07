@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-navbar color="primary">
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title> <ion-icon item-left name="rose"></ion-icon> {{ 'PAGES.ECOSISTEMAS.TITLE_PAGE' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <!-- <ion-slides spacesBetween="10" pager> 
+        <ion-slide>
+            <img src="assets/imgs/oso.jpg">
+            <h6 id="card-title">{{ 'PAGES.FAUNA.TITLE_PAGE' | translate }}</h6>
+            <h6 id="card-subtitle">Woof1</h6>
+        </ion-slide>
+        <ion-slide>
+            <img src="assets/imgs/osoa.jpg">
+            <h6 id="card-title">Oso</h6>
+            <h6 id="card-subtitle">Fauna1</h6>
+        </ion-slide>
+      </ion-slides> -->
+      <div class="contenedor">
+        <img src="assets/imgs/eco.JPG">
+        <h6 class="centrado">{{ 'PAGES.ECOSISTEMAS.TITLE_PAGE' | translate }}</h6>
+      </div>
+            <p align="justify">
+              {{ 'PAGES.ECOSISTEMAS.TITLE1' | translate }}
+            </p> 
+            
+            <!-- <ion-list>
+                    <ion-item >
+                      <ion-scroll scrollX="true">
+                            
+                                <img src="assets/imgs/ecotabla.jpg">
+                            
+                      </ion-scroll>
+                    </ion-item>
+            </ion-list> -->
+            <!-- <img src="assets/imgs/ecotabla.jpg"> -->
+            <ion-scroll scrollX="true">
+                <ion-segment style="width: 400px;">
+                    <img src="assets/imgs/ecotabla.jpg">
+                </ion-segment>
+            </ion-scroll>
+            <p align="justify">
+                {{'PAGES.ECOSISTEMAS.TITLE2' | translate}}<br>{{'PAGES.ECOSISTEMAS.TITLE3' | translate}}<br>{{'PAGES.ECOSISTEMAS.TITLE4' | translate}}<br>{{'PAGES.ECOSISTEMAS.TITLE5' | translate}}
+            </p> 
+            <p align="justify">
+                <b>{{'PAGES.ECOSISTEMAS.TITLE6' | translate}}</b>
+            </p> 
+            <img src="assets/imgs/ma1.jpg">
+            <ion-scroll scrollX="true">
+                <ion-segment style="width: 320px;">
+                    <img src="assets/imgs/le1.jpg">
+                </ion-segment>
+            </ion-scroll>
+            <!-- <img src="assets/imgs/le1.jpg"> -->
+            <img src="assets/imgs/ga3.jpg">
+            <img src="assets/imgs/ga4.jpg">
+   
+</ion-content>

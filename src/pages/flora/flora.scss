@@ -1,0 +1,29 @@
+page-flora {
+    ion-slides{
+        height:auto;
+    }
+    ion-scroll {
+        white-space: nowrap;
+        height: 200px;
+      }
+    #card-title {
+        position: absolute;
+        text-align: left;
+        text-indent:15px;
+        top: 70%;
+        font-size: 1.3em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+      }
+    #card-subtitle {
+        position: absolute;
+        text-align: left;
+        text-indent: 5px;
+        top: 70%;
+        font-size: 1.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+      }
+}

@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-navbar color="primary">
+      <ion-title> <ion-icon item-left name="walk"></ion-icon> {{ 'PAGES.LOSMIRADORES.TITLE_PAGE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-fab right top>
+      <button ion-fab color="secondary">
+              <ion-icon name="pin" ></ion-icon>
+          </button>
+  </ion-fab>
+  <ion-card>
+    <div class="contenedor">
+        <img src="assets/imgs/mira2/mirp.jpg">
+        <h6 class="centrado">{{ 'PAGES.LOSMIRADORES.TITLE_PAGE' | translate }}</h6>
+    </div>
+      <ion-card-content>
+          <p align="justify">
+            {{ 'PAGES.LOSMIRADORES.DESCRIPCION' | translate }}
+          </p>
+           <p align="justify">
+                <b>{{ 'PAGES.LOSMIRADORES.INFO' | translate }}</b><br>{{ 'PAGES.LOSMIRADORES.INFO1' | translate }}<br>{{ 'PAGES.LOSMIRADORES.INFO2' | translate }}<br>{{ 'PAGES.LOSMIRADORES.INFO3' | translate }}<br>{{ 'PAGES.LOSMIRADORES.INFO4' | translate }}<br>{{ 'PAGES.LOSMIRADORES.INFO5' | translate }}<br>
+           </p>
+        <p align="justify">
+          <b>{{ 'PAGES.LOSMIRADORES.TITLE2' | translate }}</b><br>
+          <b>{{ 'PAGES.LOSMIRADORES.TITLE3' | translate }}</b><br>
+          {{ 'PAGES.LOSMIRADORES.LLEVAR' | translate }}<br>
+          <b>{{ 'PAGES.LOSMIRADORES.TITLE4' | translate }}</b><br>
+          {{ 'PAGES.LOSMIRADORES.OPCIONAL' | translate }}<br>
+          <b>{{ 'PAGES.LOSMIRADORES.TITLE5' | translate }}</b><br>
+          <b>{{ 'PAGES.LOSMIRADORES.TITLE6' | translate }}</b><br>
+          {{ 'PAGES.LOSMIRADORES.OBLIGATORIO' | translate }}<br>
+          <b>{{ 'PAGES.LOSMIRADORES.TITLE7' | translate }}</b><br>
+          {{ 'PAGES.LOSMIRADORES.OPCIONAL2' | translate }}<br>
+        </p>
+      </ion-card-content>
+      <ion-item>
+          <ion-slides pager>
+              <ion-slide>
+                <img src="assets/imgs/mira2/mir1.jpg">
+              </ion-slide>
+              <ion-slide>
+                <img src="assets/imgs/mira2/mir2.jpg">
+              </ion-slide>
+          </ion-slides>
+      </ion-item>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,86 @@
+page-cajanuma {
+
+    
+    .trips {
+        .card {
+            border-radius: 1rem
+        }
+      /* .trip {
+        overflow: hidden;
+    
+        .background {
+            
+          background-size: 100% auto;
+          background-position: center;
+          background-image: url("assets/imgs/cajanuma.jpg");
+          .background-filter {
+            height: 16rem;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.65));
+            background-image: url("assets/imgs/cajanuma.jpg");
+            .align-bottom {
+              width: 100%;
+              background-image: url("assets/imgs/cajanuma.jpg");
+              h6 {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      } */
+    }
+
+
+    .scroll-content{
+        background-color: white;
+    }
+    .accordion-list {
+        background-color: white;
+        height: 100%;
+    }
+    .section {
+        background: #fff;
+        color: #000;
+        /* margin-bottom: 4px; */
+    }
+    .section-active {
+        background: #488aff;
+        color: #fff;
+    }
+    .sub {
+        text-align:center;
+        background: #488aff;
+        h6 {
+            color:white;
+            font-weight: normal;
+            font-size: 8px;
+            font-family: Arial;
+          }
+    }
+    .text-white {
+        color: #fff;
+        font-size: 10px;
+      }
+    .child {
+        background: #e8e7e6;
+        color: #000;
+        /* margin-bottom: 4px; */
+    }
+    .child-item {
+        background: #f3f2f1;
+        padding: 0px;
+    }
+    .label {
+        margin: 0px;
+    }
+    
+    button{
+        background: #f3f2f1;
+      }
+    #botonimagen{
+        background-image:url(leer2.jsvg);
+        background-repeat:no-repeat;
+        height:80%;
+        width:80px;
+        background-position:center;
+      }
+}

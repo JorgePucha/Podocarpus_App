@@ -1,0 +1,154 @@
+{
+    "items": [
+        {
+            "name": "Walking trails",
+            "icon": "sendero.svg",
+            "children": [
+                {
+                    "name": "Chismosa Waterfall",
+                    "information": "Distancia: 150 m / Tiempo aprox: 03 min/ Altitud: 1040 m.s.n.m / Dificultad: baja / se conoce con ese nombre por el ruido que genera.",
+                    "imgs":"no",
+                    "btn":"si"
+                },
+                {
+                    "name": "Powerful Waterfall",
+                    "information": "Distancia: 510 m / Tiempo aprox: 15 min/ Altitud: 1044 – 1133 msnm / Dificultad: media / su nombre debido al poder de agua que existe en la cascada.",
+                    "imgs":"no",
+                    "btn":"si"
+                },
+                {
+                    "name": "Rio Bombuscaro",
+                    "information": "Distancia: 123 m / Tiempo aprox: 05 min / Altitud: 1034 m.s.n.m/ Dificultad: media / recomendable visitarlo en el mes de noviembre.",
+                    "imgs":"no",
+                    "btn":"si"
+                },
+                {
+                    "name": "Green Urruquita",
+                    "information": "Distancia: 615 m/ Tiempo aprox: 15 min / Altitud: 1034 – 1105 msnm / Dificultad: media / observación de aves.",
+                    "imgs":"no",
+                    "btn":"si"
+                },
+                {
+                    "name": "The Higuerones",
+                    "information": "Distancia: 2 km / Tiempo aprox: 1:30 min / Altitud: 1027 – 1083 msnm/ Dificultad: media / observación de aves y fotografía.",
+                    "imgs":"no",
+                    "btn":"si"
+                },
+                {
+                    "name": "Lookout",
+                    "information": "Distancia: 1 km / Tiempo aprox: 1 hora / Altitud: 1033 – 1362 msnm/ Dificultad: media / vista panorámica de la ciudad de Zamora",
+                    "imgs":"no",
+                    "btn":"si"
+                }
+            ]
+        },
+        {
+            "name": "Flora",
+            "icon": "flora.svg",
+            "children": [
+                {
+                    "name": "",
+                    "information": "Galery",
+                    "imgs":"si1",
+                    "btn":"no",
+                    "img1":"cajanuma1.jpg",
+                    "img2":"cajanuma2.jpg",
+                    "img3":"cajanuma3.jpg",
+                    "img4":"cajanuma4.jpg",
+                    "img5":"cajanuma5.jpg",
+                    "img6":"cajanuma6.jpg"
+
+                }
+            ]
+        },
+        {
+            "name": "Wildlife",
+            "icon": "fauna.svg",
+            "children": [
+                {
+                    "name": "",
+                    "information": "Galery",
+                    "imgs":"si2",
+                    "btn":"no",
+                    "img1":"fauna1.jpg",
+                    "img2":"fauna2.jpg",
+                    "img3":"fauna3.jpg",
+                    "img4":"fauna4.jpg",
+                    "img5":"fauna5.jpg",
+                    "img6":"fauna6.jpg",
+                    "img7":"fauna7.jpg",
+                    "img8":"fauna8.jpg"
+
+                }
+            ]
+        },
+        {
+            "name": "Landscapes",
+            "icon": "paisaje.svg",
+            "children": [
+                {
+                    "name": "",
+                    "information": "Galery",
+                    "imgs":"si3",
+                    "btn":"no",
+                    "img1":"p1.JPG",
+                    "img2":"p2.JPG",
+                    "img3":"p3.JPG",
+                    "img4":"p4.JPG",
+                    "img5":"p5.JPG",
+                    "img6":"p6.JPG"
+
+                }
+            ]
+        },
+        {
+            "name": "Travel services",
+            "icon": "turismo.svg",
+            "children": [
+                {
+                    "name": "Infraestructura ",
+                    "information": "Cabañas ",
+                    "btn":"si"
+                }
+            ]
+        },
+        {
+            "name": "Entry Regulations",
+            "icon": "normas.svg",
+            "children": [
+                {
+                    "name": "Camine siempre por los senderos",
+                    "information": ""
+                },
+                {
+                    "name": "Goze la tranquilidad del bosque no hagas mucho ruido",
+                    "information": ""
+                },
+                {
+                    "name": "No escriba nombres en árboles o letreros",
+                    "information": ""
+                },
+                {
+                    "name": "No coger flores o plantas, ni moleste la vida silvestre",
+                    "information": ""
+                },
+                {
+                    "name": "Ayude a mantener el Parque Nacional limpio",
+                    "information": ""
+                }
+            ]
+        },
+        {
+            "name": "How to get",
+            "icon": "transporte.svg",
+            "children": [
+                {
+                    "name": "Ingreso",
+                    "information": "Tomar la vía Loja – Zamora con distancia de aprox. 60 km hasta el Terminal Terrestre, luego continúe hacia el sur por una vía de segundo orden durante 7 km hasta el punto de control en el sector Bombuscaro.",
+                    "btn":"si"
+                }
+            ]
+        }
+        
+    ]
+}

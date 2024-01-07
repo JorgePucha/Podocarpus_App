@@ -1,0 +1,161 @@
+{
+    "items": [
+        {
+            "name": "Senderos",
+            "icon": "sendero.svg",
+            "children": [
+                {
+                    "name": "Oso de anteojos",
+                    "info1": "Distancia: 400m m",
+                    "info2": "Tiempo aprox: 15min",
+                    "info3": "Altitud: 2808 m s.n.m ",
+                    "info4": "Dificultad: bajo",
+                    "info5": "Se pueden observar especies representativas de flora y fauna",
+                    "link":"OsoPage",
+                    "modelo":"1"
+                },
+                {
+                    "name": "Bosque Nublado",
+                    "info1": "Distancia: 700m",
+                    "info2": "Tiempo aprox: 30 min",
+                    "info3": "Altitud: 2865 m s.n.m",
+                    "info4": "Dificultad: bajo",
+                    "info5": "Descripción: El sendero realiza una vuelta por las faldas de la cordillera y regresa al centro administrativo.",
+                    "link":"BosquePage",
+                    "modelo":"1"
+                },
+                {
+                    "name": "Los Miradores",
+                    "info1": "Distancia: 5km",
+                    "info2": "Tiempo aprox: 4 horas",
+                    "info3": "Altitud: 3384 m s.n.m",
+                    "info4": "Dificultad: avanzado",
+                    "info5": "Descripción: El sendero cruza el bosque nublado y el páramo, y pasa por miradores hacia los valles de Loja, Vilcabamba y Malacatos.",
+                    "link":"MiradoresPage",
+                    "modelo":"1"
+                },
+                {
+                    "name": "Lagunas del Compadre",
+                    "info1": "Distancia: 14,5 km",
+                    "info2": "Tiempo aprox: 8 horas para llegar",
+                    "info3": "Altitud: 3800 m s.n.m",
+                    "info4": "Dificultad: avanzada ",
+                    "info5": "Descripción: Estas excursiones se realizan únicamente en los meses de octubre a noviembre.",
+                    "link":"LagunasPage",
+                    "modelo":"1"
+                }
+            ]
+        },
+        {
+            "name": "Flora",
+            "icon": "flora.svg",
+            "children": [
+                {
+                    "information": "Galeria",
+                    "img1":"caja1.JPG",
+                    "img2":"caja2.JPG",
+                    "img3":"caja3.JPG",
+                    "img4":"caja4.JPG",
+                    "modelo":"2"
+
+                }
+            ]
+        },
+        {
+            "name": "Fauna",
+            "icon": "fauna.svg",
+            "children": [
+                {
+                    "information": "Galeria",
+                    "img1":"caja1.JPG",
+                    "img2":"caja2.JPG",
+                    "img3":"caja3.JPG",
+                    "text":"no",
+                    "modelo":"3"
+
+                }
+            ]
+        },
+        {
+            "name": "Paisajes",
+            "icon": "paisaje.svg",
+            "children": [
+                {
+                    "information": "Galeria",
+                    "img1":"caja1.JPG",
+                    "img2":"caja2.JPG",
+                    "img3":"caja3.JPG",
+                    "modelo":"4"
+                }
+            ]
+        },
+        {
+            "name": "Servicios Turisticos",
+            "icon": "turismo.svg",
+            "children": [
+                {
+                    "name": "Infraestructura ",
+                    "info1": "Cabañas,",
+                    "info2": "Baterias Sanitarias,",
+                    "info3": "Zona de Camping,",
+                    "info4": "Zona de Descanso,",
+                    "info5": "Cocina Rustica",
+                    "info6": "Sala de Conferencias,",
+                    "link":"InfraestructuraPage",
+                    "modelo":"5"
+                }
+            ]
+        },
+        {
+            "name": "Servicios Ecosistemicos",
+            "icon": "ecosis.svg",
+            "children": [
+                {
+                    "name": "Provisión de agua",
+                    "info1": "Sitio Ramsar,",
+                    "info2": "Sistema hidrográfico Catamayo Chira,",
+                    "info3": "Sistema hidrográfico Chinchipe –Mayo,",
+                    "info4": "Sistema hidrográfico río Santiago",
+                    "link":"EcosistemicoPage",
+                    "modelo":"51"
+                }
+            ]
+        },
+        {
+            "name": "Normas de Ingreso",
+            "icon": "normas.svg",
+            "children": [
+                {
+                    "name": "El horario de atención es de 08H00 a 17H00 de lunes a domingo, pero para su seguridad puede ingresar máximo hasta las 15H30.",
+                    "info1": "El ingreso al parque es gratuito.",
+                    "info2": "- Registrarse al ingreso del área protegida o a través del Sistema de Información de Biodiversidad (SIB) (Sin.ambiente.gob.ec), es necesario cedula/ pasaporte.",
+                    "info3": "- Caminar únicamente por los senderos que están marcados.",
+                    "info4": "- No se debe explorar ningún otro sitio, ya que es posible perderse o sufrir un accidente.",
+                    "info5": "- Mantener silencio durante la observación de animales",
+                    "info6": "- La basura que genere debe ser llevada de regreso.",
+                    "info7": "- Las plantas son parte importante de este paisaje observa su belleza, no está permitido manipular, romper o cortar plantas del área protegida.",
+                    "info8": "- Deja tu mascota en casa, el ingreso con mascotas al área protegida está prohibido.",
+                    "info9": "- Está prohibido realizar fogatas.",
+                    "info10": "RECOMENDACIÓN",
+                    "info11": "- Debido a las condiciones climáticas, es importante llevar ropa adicional.",
+                    "info12": "- El área no posee servicio de alimento, por lo que se recomienda llevar su propio lunch.",
+                    "modelo":"6"
+                }
+            ]
+        },
+        {
+            "name": "Como llegar",
+            "icon": "transporte.svg",
+            "children": [
+                {
+                    "name": "Ingreso",
+                    "information": "Tomar la vía Loja – Vilcabamba por aproximadamente 13 km hasta llegar al punto de control, ubicado en el sector Cajanuma y desde este punto se toma una vía de tercer orden (caminado, bicicleta o vehículo) por otros 8.5 kilómetros hasta llegar al Centro Administrativo del parque.",
+                    "link":"TrasladoPage",
+                    "modelo":"7"
+                }
+            ]
+        }
+        
+        
+    ]
+}

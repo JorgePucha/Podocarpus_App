@@ -1,0 +1,53 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title class="new-background"><img src="assets/imgs/logopnp.png" style="width:62%"></ion-title> 
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button menuClose ion-item (click)="openHome()">
+        <ion-icon item-left name="home" color="secondary"></ion-icon>
+        {{ 'PAGES.MENU.INICIO' | translate }}
+      </button>
+      <button menuClose ion-item (click)="openGeneral()">
+        <ion-icon item-left name="information-circle" color="secondary"></ion-icon>
+        {{ 'PAGES.MENU.GENERALIDADES' | translate }}
+      </button>
+      <button menuClose ion-item (click)="openFlora()">
+        <ion-icon item-left name="flower" color="secondary"></ion-icon>
+        {{ 'PAGES.MENU.FLORA' | translate }}
+      </button>
+      <button menuClose ion-item (click)="openFauna()">
+        <ion-icon item-left name="paw" color="secondary"></ion-icon>
+        {{ 'PAGES.MENU.FAUNA' | translate }}
+      </button>
+      <button menuClose ion-item (click)="openEcosistemas()">
+        <ion-icon item-left name="rose" color="secondary"></ion-icon>
+        {{ 'PAGES.MENU.ECOSISTEMAS' | translate }}
+      </button>
+      <button menuClose ion-item (click)="openUs()">
+        <ion-icon item-left name="contact" color="secondary"></ion-icon>
+        {{ 'PAGES.MENU.NOSOTROS' | translate }}
+      </button>
+      <button menuClose ion-item (click)="openContacto()">
+        <ion-icon item-left name="mail" color="secondary"></ion-icon>
+        {{ 'PAGES.MENU.CONTACTO' | translate }}
+      </button>
+    </ion-list>
+    <ion-list>
+      <ion-list-header>
+          Tutorial
+      </ion-list-header>
+      <button ion-item menuClose (click)="openTutorial()">
+      <ion-icon item-left name="hammer" color="secondary"></ion-icon>
+      {{ 'PAGES.MENU.TUTORIAL' | translate }}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

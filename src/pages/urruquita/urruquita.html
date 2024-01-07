@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar color="primary">
+      <ion-title> <ion-icon item-left name="walk"></ion-icon> {{ 'PAGES.URRUQUITA.TITLE_PAGE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-fab right top>
+      <button ion-fab color="secondary">
+              <ion-icon name="pin" ></ion-icon>
+          </button>
+  </ion-fab>
+  <ion-card>
+    <div class="contenedor">
+            <img src="assets/imgs/urru/urrup.JPG">
+            <h6 class="centrado">{{ 'PAGES.URRUQUITA.TITLE_PAGE' | translate }}</h6>
+    </div>
+      <ion-card-content>
+          <p align="justify">
+            {{ 'PAGES.URRUQUITA.DESCRIPCION' | translate }}
+          </p>
+          <p align="justify">
+                <b>{{ 'PAGES.URRUQUITA.INFO' | translate }}</b><br>{{ 'PAGES.URRUQUITA.INFO1' | translate }}<br>{{ 'PAGES.URRUQUITA.INFO2' | translate }}<br>{{ 'PAGES.URRUQUITA.INFO3' | translate }}<br>{{ 'PAGES.URRUQUITA.INFO4' | translate }}<br>{{ 'PAGES.URRUQUITA.INFO5' | translate }}<br>
+          </p>
+        <p align="justify">
+          <b>{{ 'PAGES.URRUQUITA.TITLE2' | translate }}</b><br>
+          <b>{{ 'PAGES.URRUQUITA.TITLE3' | translate }}</b><br>
+          {{ 'PAGES.URRUQUITA.LLEVAR' | translate }}<br>
+          <b>{{ 'PAGES.URRUQUITA.TITLE4' | translate }}</b><br>
+          {{ 'PAGES.URRUQUITA.OPCIONAL' | translate }}<br>
+          <b>{{ 'PAGES.URRUQUITA.TITLE5' | translate }}</b><br>
+          {{ 'PAGES.URRUQUITA.RECOMENDADO' | translate }}
+        </p>
+      </ion-card-content>
+      <ion-item>
+          <ion-slides pager>
+              <ion-slide>
+                  <img src="assets/imgs/urru/urru1.JPG">
+              </ion-slide>
+              <ion-slide>
+                  <img src="assets/imgs/urru/urru2.jpg">
+              </ion-slide>
+          </ion-slides>
+      </ion-item>
+  </ion-card>
+</ion-content>
+

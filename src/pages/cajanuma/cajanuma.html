@@ -1,0 +1,183 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title> <ion-icon item-left name="map"></ion-icon> {{ 'PAGES.CAJANUMA.TITLE_PAGE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="trips detail-bg">
+
+    <div (click)="openImage()">
+        <img src="assets/imgs/cajanuma.jpeg">
+    </div>
+<ion-list class="accordion-list">
+  <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>
+    <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{'section-active': item.open, 'section': !item.open}">
+      <ion-row align-items-center>
+      <img src="assets/imgs/{{item.icon}}" ion-col col-3>
+      <p ion-col col-7>{{ item.name }}</p>
+      <img src="assets/imgs/aba.svg" *ngIf="item.open" ion-col col-2>
+      <img src="assets/imgs/der.svg" *ngIf="!item.open" ion-col col-2>
+      </ion-row>
+    </button>
+    <ion-list *ngIf="item.children && item.open" no-lines>
+      <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>
+        <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>
+          <ion-icon item-left name="add" *ngIf="!child.open"></ion-icon>
+          <ion-icon item-left name="close" *ngIf="child.open"></ion-icon>
+          {{ child.name }}
+        </button>
+        <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>
+            <ion-grid *ngIf="child.modelo=='1'">
+              <ion-row>
+                <ion-col col-12>
+                  <h2>{{ child.name }}</h2>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+              <ion-col col-9>
+                <p align="justify">{{ child.info1 }}<br>{{ child.info2 }}<br>{{ child.info3 }}<br>{{ child.info4 }}<br>{{ child.info5 }}</p>
+                </ion-col>
+                  <ion-col col-3>
+                    <button ng-mousedown="class='fb-down'" ng-mouseup="class='fb-up'" class="{{class}}" item-end (click)="goToPage(child.link)" id="botonimagen">
+                      <img src="assets/imgs/leer2.svg"/>
+                    </button>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+            <ion-grid *ngIf="child.modelo=='2'">
+              <ion-row>
+              <ion-col col-12>
+                <p align="justify">{{ child.information }}</p>
+              </ion-col>
+              </ion-row>
+            </ion-grid>
+            <ion-grid *ngIf="child.modelo=='3'">
+              <ion-row>
+              <ion-col col-12>
+                <p>{{ child.information }}</p>
+              </ion-col>
+              </ion-row>
+            </ion-grid>
+            <ion-grid *ngIf="child.modelo=='4'">
+              <ion-row>
+              <ion-col col-12>
+                <p align="justify">{{ child.information }}</p>
+              </ion-col>
+              </ion-row>
+            </ion-grid>
+            <ion-grid *ngIf="child.modelo=='5'">
+              <ion-row>
+              <ion-col col-9>
+                <p align="justify">{{ child.info1 }}<br>{{ child.info2 }}<br>{{ child.info3 }}<br>{{ child.info4 }}<br>{{ child.info5 }}</p>
+              </ion-col>
+                  <ion-col col-3>
+                    <button ng-mousedown="class='fb-down'" ng-mouseup="class='fb-up'" class="{{class}}" item-end (click)="goToPage(child.link)" id="botonimagen">
+                      <img src="assets/imgs/leer2.svg"/>
+                    </button>
+                  </ion-col>
+              </ion-row>
+            </ion-grid>
+            <ion-grid *ngIf="child.modelo=='51'">
+              <ion-row>
+              <ion-col col-9>
+                <p align="justify">{{ child.info1 }}<br>{{ child.info2 }}<br>{{ child.info3 }}<br>{{ child.info4 }}</p>
+              </ion-col>
+                  <ion-col col-3>
+                    <button ng-mousedown="class='fb-down'" ng-mouseup="class='fb-up'" class="{{class}}" item-end (click)="goToPage(child.link)" id="botonimagen">
+                      <img src="assets/imgs/leer2.svg"/>
+                    </button>
+                  </ion-col>
+              </ion-row>
+            </ion-grid>
+            <ion-grid *ngIf="child.modelo=='6'">
+              <ion-row>
+                <ion-col col-12>
+                  <h2 align="justify">{{ child.name }}</h2>
+                </ion-col>
+                <ion-col col-12>
+                  <p align="justify">{{ child.info1 }}<br>{{ child.info2 }}<br>{{ child.info3 }}<br>{{ child.info4 }}<br>{{ child.info5 }}<br>{{ child.info6 }}<br>{{ child.info7 }}<br>{{ child.info8 }}<br>{{ child.info9 }}<br><b>{{ child.info10 }}</b><br>{{ child.info11 }}<br>{{ child.info12 }}</p>
+                </ion-col>
+              </ion-row>
+              <!-- <ion-row>
+                <ion-col col-9>
+                <p align="justify">{{child.information}}</p>
+                </ion-col>
+              </ion-row> -->
+              
+            </ion-grid>
+            <!-- <ion-grid *ngIf="child.modelo=='6'">
+              <ion-row>
+                <ion-col col-12>
+                  <h2 align="justify">{{ child.name }}</h2>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col col-9>
+                <p align="justify">{{child.information}}</p>
+                </ion-col>
+              </ion-row>
+            </ion-grid> -->
+            <ion-grid *ngIf="child.modelo=='7'">
+              <ion-row>
+                <ion-col col-12>
+                  <h2>{{ child.name }}</h2>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+              <ion-col col-9>
+                <p align="justify">{{child.information}}</p>
+                </ion-col>
+                  <ion-col col-3>
+                    <button ng-mousedown="class='fb-down'" ng-mouseup="class='fb-up'" class="{{class}}" item-end (click)="goToPage(child.link)" id="botonimagen">
+                      <img src="assets/imgs/leer2.svg"/>
+                    </button>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+
+          <ion-slides pager *ngIf="child.modelo=='2'">
+            <ion-slide>
+                <img src="assets/imgs/floracaja/{{child.img1}}">
+            </ion-slide>
+            <ion-slide>
+                <img src="assets/imgs/floracaja/{{child.img2}}">
+            </ion-slide>
+            <ion-slide>
+                <img src="assets/imgs/floracaja/{{child.img3}}">
+            </ion-slide>
+            <ion-slide>
+              <img src="assets/imgs/floracaja/{{child.img4}}">
+            </ion-slide>
+          </ion-slides>
+          
+          <ion-slides pager *ngIf="child.modelo=='3'">
+            <ion-slide>
+                <img src="assets/imgs/faunacaja/{{child.img1}}">
+            </ion-slide>
+            <ion-slide>
+                <img src="assets/imgs/faunacaja/{{child.img2}}">
+            </ion-slide>
+            <ion-slide>
+                <img src="assets/imgs/faunacaja/{{child.img3}}">
+            </ion-slide>
+          </ion-slides>
+          <ion-slides pager *ngIf="child.modelo=='4'">
+            <ion-slide>
+                <img src="assets/imgs/paisacaja/{{child.img1}}">
+            </ion-slide>
+            <ion-slide>
+                <img src="assets/imgs/paisacaja/{{child.img2}}">
+            </ion-slide>
+            <ion-slide>
+                <img src="assets/imgs/paisacaja/{{child.img3}}">
+            </ion-slide>
+          </ion-slides>
+        </ion-item>
+      </ion-list-header>
+    </ion-list>
+  </ion-list-header>
+</ion-list>
+</ion-content>

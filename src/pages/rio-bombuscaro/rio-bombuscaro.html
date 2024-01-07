@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar color="primary">
+      <ion-title> <ion-icon item-left name="walk"></ion-icon> {{ 'PAGES.RIOBOMBUSCARO.TITLE_PAGE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-fab right top>
+      <button ion-fab color="secondary">
+              <ion-icon name="pin" ></ion-icon>
+          </button>
+  </ion-fab>
+  <ion-card>
+    <div class="contenedor">
+        <img src="assets/imgs/riob/riop.jpg">
+        <h6 class="centrado">{{ 'PAGES.RIOBOMBUSCARO.TITLE_PAGE' | translate }}</h6>
+    </div>
+      <ion-card-content>
+          <p align="justify">
+            {{ 'PAGES.RIOBOMBUSCARO.DESCRIPCION' | translate }}
+          </p>
+          <p align="justify">
+                <b>{{ 'PAGES.RIOBOMBUSCARO.INFO' | translate }}</b><br>{{ 'PAGES.RIOBOMBUSCARO.INFO1' | translate }}<br>{{ 'PAGES.RIOBOMBUSCARO.INFO2' | translate }}<br>{{ 'PAGES.RIOBOMBUSCARO.INFO3' | translate }}<br>{{ 'PAGES.RIOBOMBUSCARO.INFO4' | translate }}<br>{{ 'PAGES.RIOBOMBUSCARO.INFO5' | translate }}<br>
+           </p>
+        <p align="justify">
+          <b>{{ 'PAGES.RIOBOMBUSCARO.TITLE2' | translate }}</b><br>
+          <b>{{ 'PAGES.RIOBOMBUSCARO.TITLE3' | translate }}</b><br>
+          {{ 'PAGES.RIOBOMBUSCARO.LLEVAR' | translate }}<br>
+          <b>{{ 'PAGES.RIOBOMBUSCARO.TITLE4' | translate }}</b><br>
+          {{ 'PAGES.RIOBOMBUSCARO.OPCIONAL' | translate }}<br>
+          <b>{{ 'PAGES.RIOBOMBUSCARO.TITLE5' | translate }}</b><br>
+          {{ 'PAGES.RIOBOMBUSCARO.RECOMENDADO' | translate }}
+        </p>
+      </ion-card-content>
+      <ion-item>
+          <ion-slides pager>
+              <ion-slide>
+                  <img src="assets/imgs/riob/rio1.JPG">
+              </ion-slide>
+              <ion-slide>
+                  <img src="assets/imgs/riob/rio2.JPG">
+              </ion-slide>
+              <ion-slide>
+                  <img src="assets/imgs/riob/rio3.JPG">
+              </ion-slide>
+          </ion-slides>
+      </ion-item>
+  </ion-card>
+</ion-content>
+

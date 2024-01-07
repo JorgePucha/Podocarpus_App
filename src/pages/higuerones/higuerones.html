@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar color="primary">
+      <ion-title> <ion-icon item-left name="walk"></ion-icon> {{ 'PAGES.HIGUERONES.TITLE_PAGE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-fab right top>
+      <button ion-fab color="secondary">
+              <ion-icon name="pin" ></ion-icon>
+          </button>
+  </ion-fab>
+  <ion-card>
+    <div class="contenedor">
+            <img src="assets/imgs/higue/higuep.JPG">
+            <h6 class="centrado">{{ 'PAGES.HIGUERONES.TITLE_PAGE' | translate }}</h6>
+        </div>
+      <ion-card-content>
+          <p align="justify">
+            {{ 'PAGES.HIGUERONES.DESCRIPCION' | translate }}
+          </p>
+          <p align="justify">
+                <b>{{ 'PAGES.HIGUERONES.INFO' | translate }}</b><br>{{ 'PAGES.HIGUERONES.INFO1' | translate }}<br>{{ 'PAGES.HIGUERONES.INFO2' | translate }}<br>{{ 'PAGES.HIGUERONES.INFO3' | translate }}<br>{{ 'PAGES.HIGUERONES.INFO4' | translate }}<br>{{ 'PAGES.HIGUERONES.INFO5' | translate }}<br>
+           </p>
+        <p align="justify">
+          <b>{{ 'PAGES.HIGUERONES.TITLE2' | translate }}</b><br>
+          <b>{{ 'PAGES.HIGUERONES.TITLE3' | translate }}</b><br>
+          {{ 'PAGES.HIGUERONES.LLEVAR' | translate }}<br>
+          <b>{{ 'PAGES.HIGUERONES.TITLE4' | translate }}</b><br>
+          {{ 'PAGES.HIGUERONES.OPCIONAL' | translate }}<br>
+          <b>{{ 'PAGES.HIGUERONES.TITLE5' | translate }}</b><br>
+          {{ 'PAGES.HIGUERONES.RECOMENDADO' | translate }}
+        </p>
+      </ion-card-content>
+      <ion-item>
+          <ion-slides pager>
+              <ion-slide>
+                  <img src="assets/imgs/higue/higue1.jpg">
+              </ion-slide>
+              <ion-slide>
+                  <img src="assets/imgs/higue/higue2.jpg">
+              </ion-slide>
+          </ion-slides>
+      </ion-item>
+  </ion-card>
+</ion-content>
+

@@ -1,0 +1,37 @@
+<script src="assets/js/web-animations.min.js"></script>
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle (click)="openMenu('rojo')">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentPopover($event)">
+        {{ 'PAGES.HOME.BTN' | translate }}
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  
+  <h6 ALIGN="center"><b>{{ 'PAGES.HOME.TITLE1' | translate }}<br>{{ 'PAGES.HOME.TITLE2' | translate }}</b></h6>
+  <img src="assets/imgs/fondopodo.jpg" />
+  <img src="assets/imgs/mae_publicaciones.jpg" />
+  <ion-row style="align-items:center;">
+          <ion-col col-4>
+              <button ng-mousedown="class='fb-down'" ng-mouseup="class='fb-up'" class="{{class}}" (click)="openCajanuma()">
+                  <img src="assets/imgs/icono1.jpg" alt="" title=""/>
+              </button>
+          </ion-col>
+          <ion-col col-4>
+              <button ng-mousedown="class='fb-down'" ng-mouseup="class='fb-up'" class="{{class}}" (click)="openMiguelPopover($event)">
+                  <img src="assets/imgs/miguel5.gif" alt="" title=""/>
+              </button>
+          </ion-col>
+          <ion-col col-4>
+              <button ng-mousedown="class='fb-down'" ng-mouseup="class='fb-up'" class="{{class}}" (click)="openBombuscaro()">
+                  <img src="assets/imgs/icono2.jpg" alt="" title=""/>
+              </button>
+        </ion-col>
+  </ion-row>
+
+</ion-content>

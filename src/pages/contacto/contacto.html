@@ -1,0 +1,122 @@
+<!-- <ion-header>
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{ 'PAGES.CONTACTO.TITLE_PAGE' | translate }}</ion-title>
+      </ion-navbar>
+  </ion-header>
+  <ion-content padding>
+  <form ion-grid fixed #form="ngForm">
+  <p>{{ 'PAGES.CONTACTO.TITLE1' | translate }}</p>
+  <ion-list ion-row>
+    <ion-item ion-col col-12 col-sm-6 col-md-4>
+      <ion-label floating>{{ 'PAGES.CONTACTO.PERFIL' | translate }}</ion-label>
+      <ion-input type="text" name="numero" [(ngModel)]="numero" required="required" clearInput="true"></ion-input>
+    </ion-item>
+    <ion-item ion-col col-12 col-sm-6 col-md-4>
+        <ion-label floating>{{ 'PAGES.CONTACTO.CORREO' | translate }}</ion-label>
+        <ion-input type="text" name="email1" [(ngModel)]="email1" required="required" clearInput="true"></ion-input>
+    </ion-item>
+    <ion-item ion-col col-12 col-md-4>
+        <ion-label floating>{{ 'PAGES.CONTACTO.COMENTARIO' | translate }}</ion-label>
+        <ion-textarea name="comentario" [(ngModel)]="comentario" required="required"></ion-textarea>
+    </ion-item>
+  </ion-list>
+  <div ion-col col-12 margin text-center>
+      <button type="submit" ion-button icon-left round [disabled]="form.invalid" (click)="send(numero,email1,comentario)">
+          <ion-icon name="send"></ion-icon>
+          {{ 'PAGES.CONTACTO.ENVIAR' | translate }}
+      </button>
+  </div> 
+  </form>
+  </ion-content> -->
+
+<ion-header>
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title> <ion-icon item-left name="mail"></ion-icon> {{ 'PAGES.CONTACT.TITLE_PAGE' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding>
+        <!-- <ion-row style="align-items:center;">
+                <ion-col col-12>
+                    
+              </ion-col>
+        </ion-row> -->
+        <img src="assets/imgs/mae2.jpg">
+        <p align="center">
+                <b>{{'PAGES.CONTACT.TITLE1' | translate}}</b><br>{{'PAGES.CONTACT.TITLE2' | translate}}<br>{{'PAGES.CONTACT.TITLE3' | translate}}
+        </p> 
+        <p align="center">
+                <b>{{'PAGES.CONTACT.TITLE4' | translate}}</b><br>{{'PAGES.CONTACT.TITLE5' | translate}}<br>{{'PAGES.CONTACT.TITLE6' | translate}}
+        </p> 
+        <ion-row style="align-items:center;">
+                <ion-col col-4>
+                </ion-col>
+                <ion-col col-4>
+                    <img src="assets/imgs/pnpc.jpg">
+              </ion-col>
+              <ion-col col-4>
+              </ion-col>
+        </ion-row>
+        <p align="center">
+                <b>{{'PAGES.CONTACT.TITLE7' | translate}}</b><br><b>{{'PAGES.CONTACT.TITLE8' | translate}}</b><br>{{'PAGES.CONTACT.TITLE9' | translate}}<br><b>{{'PAGES.CONTACT.TITLE10' | translate}}</b><br>{{'PAGES.CONTACT.TITLE11' | translate}}<br><b>{{'PAGES.CONTACT.TITLE101' | translate}}</b><br>{{'PAGES.CONTACT.TITLE111' | translate}}
+        </p> 
+        <ion-row style="align-items:center;">
+                <ion-col col-4>
+                </ion-col>
+                <ion-col col-4>
+                    <img src="assets/imgs/email.jpg">
+              </ion-col>
+              <ion-col col-4>
+              </ion-col>
+        </ion-row>
+        <p align="center">
+                <b>{{'PAGES.CONTACT.TITLE12' | translate}}</b><br>{{'PAGES.CONTACT.TITLE13' | translate}}<br>{{'PAGES.CONTACT.TITLE14' | translate}}
+        </p>
+        <ion-row style="align-items:center;">
+            <ion-col col-2>
+            </ion-col>
+            <ion-col col-2>
+                <img src="assets/imgs/face.jpg">
+            </ion-col>
+            <ion-col col-2>
+            </ion-col>
+            <ion-col col-2>
+            </ion-col>
+            <ion-col col-2>
+                <img src="assets/imgs/twiter.png">
+            </ion-col>
+            <ion-col col-2>
+            </ion-col>
+        </ion-row>
+        <ion-row style="align-items:center;">
+                <ion-col col-6>
+                    <h6>{{ 'PAGES.CONTACT.TITLE15' | translate }}</h6>
+                    <h6>{{ 'PAGES.CONTACT.TITLE16' | translate }}</h6>
+                </ion-col>
+                <ion-col col-6>
+                    <h6>{{ 'PAGES.CONTACT.TITLE17' | translate }}</h6>
+                    <h6>{{ 'PAGES.CONTACT.TITLE18' | translate }}</h6>
+              </ion-col>
+        </ion-row>
+        <p align="center">
+                <b>{{'PAGES.CONTACT.TITLE19' | translate}}</b>
+        </p>
+        <ion-row style="align-items:center;">
+                <ion-col col-4>
+                    <img src="assets/imgs/ecu.png">
+                </ion-col>
+                <ion-col col-4>
+                </ion-col>
+                <ion-col col-4>
+                    <img src="assets/imgs/delito.png">
+                </ion-col>
+        </ion-row>
+    
+    
+    
+</ion-content>

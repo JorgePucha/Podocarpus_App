@@ -1,0 +1,55 @@
+{
+   "PAGES": {
+       "HOME": {
+           "TITLE_PAGE": "HOME",
+           "TITLE1": "ZONAL COORDINATION 7",
+           "TITLE2": "LOJA - ZAMORA - EL ORO",
+           "TITLE_IMAGE": "PODOCARPUS NATIONAL PARK",
+           "CONTENT": "Content Test",
+           "BTN": "English",
+           "DETALLE":"information.json",
+           "RADIO": "2"
+         },
+        "BOMBUSCARO": {
+           "TITLE_PAGE": "BOMBUSCARO SECTOR",
+           "TITLE1": "ZONAL COORDINATION 7",
+           "TITLE2": "LOJA - ZAMORA - EL ORO",
+           "CONTENT": "It is known by such name because it is the first path created in the park, in addition you could observe the spectacled bear. On this trail you can see a variety of flora and fauna. In the month of March you can see the Andean toucan as they arrive in search of the Pumamaqui tree",
+           "SLIDES": "(Galery)",
+           "JSON": "information.json"
+         },
+        "MIGUEL": {
+           "TITLE_PAGE": "Hi, I'm Miguelito",
+           "TITLE1": "ZONAL COORDINATION 7",
+           "TITLE2": "LOJA - ZAMORA - EL ORO"
+         },
+        "NOSOTROS": {
+           "TITLE_PAGE": "Us",
+           "TITLE1": "Information",
+           "TITLE2": "LOJA - ZAMORA - EL ORO"
+         },
+        "CONTACTO": {
+           "TITLE_PAGE": "Contact",
+           "TITLE1": "Send us your query and information",
+           "PERFIL": "Phone",
+           "CORREO": "e-mail",
+           "COMENTARIO": "Commentary",
+           "ROBOT": "I am not a robot",
+           "ENVIAR": "Send",
+           "ALERT_TITLE": "Contact",
+           "ALERT_SUBTITLE": "Your request has been sent to your default mail, you must confirm sending!",
+           "ALERT_BUTTON": "OK"
+         },
+        "MENU": {
+           "INICIO": "Home",
+           "GENERALIDADES": "Generalities",
+           "FLORA": "Flora",
+           "FAUNA": "Wildlife",
+           "ECOSISTEMAS": "Ecosystems",
+           "NOSOTROS": "Us",
+           "CONTACTO": "Contact",
+           "TUTORIAL": "Show Tutorial"
+         }
+
+       }
+}

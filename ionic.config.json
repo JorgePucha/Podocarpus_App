@@ -1,0 +1,7 @@
+{
+  "name": "multilenguaje",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

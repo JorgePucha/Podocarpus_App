@@ -1,0 +1,47 @@
+page-ecosistemas {
+    ion-slides{
+        height:auto;
+    }
+    ion-scroll {
+      white-space: nowrap;
+      height: 300px;
+    }
+    .contenedor{
+        .centrado{
+          position: absolute;
+          text-align: left;
+          text-indent: 5px;
+          top: 70%;
+          font-size: 1.3em;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+        }
+      }
+    #card-title {
+        position: absolute;
+        text-align: left;
+        text-indent: 5px;
+        top: 55%;
+        font-size: 1.3em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+      }
+    #card-subtitle {
+        position: absolute;
+        text-align: left;
+        text-indent: 5px;
+        top: 70%;
+        font-size: 1.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+      }
+      #textbox {
+        height: 250px !important;
+        width: 210px !important;
+        margin: 2;
+        padding: 2;
+        }
+}

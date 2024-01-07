@@ -1,0 +1,26 @@
+<!--       <ion-content >
+          <ion-list>
+            <ion-item>
+              <p>LANGUAGE</p>
+            </ion-item>
+            <ion-item *ngFor="let item of items" (click)="dismiss(item)">
+              <img item-left src='assets/icon/{{item.img}}'/>
+              <ion-label>{{item.title}}</ion-label> 
+            </ion-item>
+          </ion-list>
+      </ion-content> -->
+      <ion-list radio-group [(ngModel)]="status">
+          <ion-item>
+            <p>LANGUAGE</p>
+          </ion-item>
+          <ion-item >
+            <img item-left src="assets/imgs/icon/espanol.jpg" alt="">
+            <ion-label>Español</ion-label>
+            <ion-radio name="status" value="1" (click)="dismiss('es')"></ion-radio>
+          </ion-item>
+          <ion-item >
+            <img item-left src="assets/imgs/icon/ingles.jpg" alt="">
+            <ion-label>English</ion-label>
+            <ion-radio name="status" value="2" (click)="dismiss('en')"></ion-radio>
+          </ion-item>
+      </ion-list>

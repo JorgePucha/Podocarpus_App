@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar color="primary">
+      <ion-title> <ion-icon item-left name="walk"></ion-icon> {{ 'PAGES.MIRADOR.TITLE_PAGE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-fab right top>
+      <button ion-fab color="secondary">
+              <ion-icon name="pin" ></ion-icon>
+          </button>
+  </ion-fab>
+  <ion-card>
+        <div class="contenedor">
+            <img src="assets/imgs/mira/mirap.JPG">
+            <h6 class="centrado">{{ 'PAGES.MIRADOR.TITLE_PAGE' | translate }}</h6>
+        </div>
+      <ion-card-content>
+          <p align="justify">
+            {{ 'PAGES.MIRADOR.DESCRIPCION' | translate }}
+          </p>
+          <p align="justify">
+                <b>{{ 'PAGES.MIRADOR.INFO' | translate }}</b><br>{{ 'PAGES.MIRADOR.INFO1' | translate }}<br>{{ 'PAGES.MIRADOR.INFO2' | translate }}<br>{{ 'PAGES.MIRADOR.INFO3' | translate }}<br>{{ 'PAGES.MIRADOR.INFO4' | translate }}<br>{{ 'PAGES.MIRADOR.INFO5' | translate }}<br>
+           </p>
+        <p align="justify">
+          <b>{{ 'PAGES.MIRADOR.TITLE2' | translate }}</b><br>
+          <b>{{ 'PAGES.MIRADOR.TITLE3' | translate }}</b><br>
+          {{ 'PAGES.MIRADOR.LLEVAR' | translate }}<br>
+          <b>{{ 'PAGES.MIRADOR.TITLE4' | translate }}</b><br>
+          {{ 'PAGES.MIRADOR.OPCIONAL' | translate }}<br>
+        </p>
+      </ion-card-content>
+      <ion-item>
+          <ion-slides pager>
+              <ion-slide>
+                  <img src="assets/imgs/mira/mira1.JPG">
+              </ion-slide>
+              <ion-slide>
+                  <img src="assets/imgs/mira/mira2.JPG">
+              </ion-slide>
+              <ion-slide>
+                  <img src="assets/imgs/mira/mira3.jpg">
+              </ion-slide>
+          </ion-slides>
+      </ion-item>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar color="primary">
+      <ion-title> <ion-icon item-left name="walk"></ion-icon> {{ 'PAGES.BOSQUE.TITLE_PAGE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-fab right top>
+      <button ion-fab color="secondary">
+              <ion-icon name="pin" ></ion-icon>
+          </button>
+  </ion-fab>
+  <ion-card>
+    <div class="contenedor">
+        <img src="assets/imgs/bosque/bosquep.jpg">
+        <h6 class="centrado">{{ 'PAGES.BOSQUE.TITLE_PAGE' | translate }}</h6>
+    </div>
+      <ion-card-content>
+          <p align="justify">
+            {{ 'PAGES.BOSQUE.DESCRIPCION' | translate }}
+          </p>
+           <p align="justify">
+                <b>{{ 'PAGES.BOSQUE.INFO' | translate }}</b><br>{{ 'PAGES.BOSQUE.INFO1' | translate }}<br>{{ 'PAGES.BOSQUE.INFO2' | translate }}<br>{{ 'PAGES.BOSQUE.INFO3' | translate }}<br>{{ 'PAGES.BOSQUE.INFO4' | translate }}<br>{{ 'PAGES.BOSQUE.INFO5' | translate }}<br>
+           </p>
+        <p align="justify">
+          <b>{{ 'PAGES.BOSQUE.TITLE2' | translate }}</b><br>
+          <b>{{ 'PAGES.BOSQUE.TITLE3' | translate }}</b><br>
+          {{ 'PAGES.BOSQUE.LLEVAR' | translate }}<br>
+          <b>{{ 'PAGES.BOSQUE.TITLE4' | translate }}</b><br>
+          {{ 'PAGES.BOSQUE.OPCIONAL' | translate }}<br>
+          <b>{{ 'PAGES.BOSQUE.TITLE5' | translate }}</b><br>
+          {{ 'PAGES.BOSQUE.RECOMENDADO' | translate }}
+        </p>
+      </ion-card-content>
+      <ion-item>
+          <ion-slides pager>
+              <ion-slide>
+                  <img src="assets/imgs/bosque/bosque1.jpg">
+              </ion-slide>
+              <ion-slide>
+                  <img src="assets/imgs/bosque/bosque2.jpg">
+              </ion-slide>
+          </ion-slides>
+      </ion-item>
+  </ion-card>
+</ion-content>

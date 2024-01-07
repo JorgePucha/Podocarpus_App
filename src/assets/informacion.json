@@ -1,0 +1,159 @@
+{
+    "items": [
+        {
+            "name": "Senderos",
+            "icon": "sendero.svg",
+            "children": [
+                {
+                    "name": "Cascada la Chismosa",
+                    "info1": "Distancia: 123 m",
+                    "info2": "Tiempo aprox: 03 min",
+                    "info3": "Altitud: 1040 m.s.n.m",
+                    "info4": "Dificultad: baja",
+                    "info5": "Descripción: se conoce con ese nombre por el ruido que genera",
+                    "link":"ChismosaPage",
+                    "modelo":"1"
+                },
+                {
+                    "name": "Rio Bombuscaro",
+                    "info1": "Distancia: 153 m",
+                    "info2": "Tiempo aprox: 05 min",
+                    "info3": "Altitud: 1034 m.s.n.m",
+                    "info4": "Dificultad: media",
+                    "info5": "Descripción: recomendable visitarlo en el mes de noviembre",
+                    "link":"RioBombuscaroPage",
+                    "modelo":"1"
+                },
+                {
+                    "name": "Cascada la Poderosa",
+                    "info1": "Distancia: 510 m",
+                    "info2": "Tiempo aprox: 15 min",
+                    "info3": "Altitud: 1044 – 1133 msnm",
+                    "info4": "Dificultad: media",
+                    "info5": "Descripción: su nombre debido al poder de agua que existe en la cascada",
+                    "link":"PoderosaPage",
+                    "modelo":"1"
+                },
+                {
+                    "name": "Urraquita verde",
+                    "info1": "Distancia: 615 m",
+                    "info2": "Tiempo aprox: 15 min",
+                    "info3": "Altitud: 1034 – 1105 msnm",
+                    "info4": "Dificultad: media",
+                    "info5": "Descripción: observación de aves",
+                    "link":"UrruquitaPage",
+                    "modelo":"1"
+                },
+                {
+                    "name": "Mirador",
+                    "info1": "Distancia: 1 km",
+                    "info2": "Tiempo aprox: 1 hora",
+                    "info3": "Altitud: 1033 – 1362 msnm",
+                    "info4": "Dificultad: media",
+                    "info5": "Descripción: fotografía paisajística.",
+                    "link":"MiradorPage",
+                    "modelo":"1"
+                },
+                {
+                    "name": "Los Higuerones",
+                    "info1": "Distancia: 2 km",
+                    "info2": "Tiempo aprox: 1:30 min",
+                    "info3": "Altitud: 1027 – 1083 msnm",
+                    "info4": "Dificultad: media",
+                    "info5": "Descripción: observación de aves y fotografía paisajística.",
+                    "link":"HigueronesPage",
+                    "modelo":"1"
+                }
+            ]
+        },
+        {
+            "name": "Flora",
+            "icon": "flora.svg",
+            "children": [
+                {
+                    "information": "Galeria",
+                    "img1":"bom1.JPG",
+                    "img2":"bom2.JPG",
+                    "img3":"bom3.JPG",
+                    "modelo":"2"
+
+                }
+            ]
+        },
+        {
+            "name": "Fauna",
+            "icon": "fauna.svg",
+            "children": [
+                {
+                    "information": "Galeria",
+                    "img1":"bom1.JPG",
+                    "img2":"bom2.JPG",
+                    "img3":"bom3.jpg",
+                    "text":"no",
+                    "modelo":"3"
+
+                }
+            ]
+        },
+        {
+            "name": "Paisajes",
+            "icon": "paisaje.svg",
+            "children": [
+                {
+                    "information": "Galeria",
+                    "img1":"bom1.JPG",
+                    "img2":"bom2.JPG",
+                    "img3":"bom3.jpg",
+                    "modelo":"4"
+                }
+            ]
+        },
+        {
+            "name": "Servicios Turisticos",
+            "icon": "turismo.svg",
+            "children": [
+                {
+                    "name": "Infraestructura ",
+                    "info1": "Cabañas,",
+                    "info2": "Centro Administrativo,",
+                    "info3": "Cocina Rustica,",
+                    "info4": "Baterias Sanitarias,",
+                    "info5": "Demas Servicios",
+                    "link":"CabaniaPage",
+                    "modelo":"5"
+                }
+            ]
+        },
+        {
+            "name": "Normas de Ingreso",
+            "icon": "normas.svg",
+            "children": [
+                {
+                    "name": "El horario de atención es de 08H00 a 17H00 de lunes a domingo, pero para su seguridad puede ingresar máximo hasta las 15H30. El ingreso al parque es gratuito.",
+                    "info1": "- Registrarse al ingreso del área protegida o a través del Sistema de información de biodiversidad (SIB) (Sin.ambiente.gob.ec), es necesario cedula/ pasaporte.",
+                    "info2": "- Caminar únicamente por los senderos que están marcados.",
+                    "info3": "- Mantener silencio durante la observación de animales.",
+                    "info4": "- La basura que genere debe ser llevada de regreso.",
+                    "info5": "- Las plantas son parte importante de este paisaje observa su belleza, no está permitido manipular, romper o cortar plantas del área protegida.",
+                    "info6": "- Deja tu mascota en casa, el ingreso con mascotas al área protegida está prohibido.",
+                    "info7": "- Está prohibido realizar fogatas. ",
+                    "modelo":"6"
+                }
+            ]
+        },
+        {
+            "name": "Como llegar",
+            "icon": "transporte.svg",
+            "children": [
+                {
+                    "name": "Ingreso",
+                    "information": "Tomar la vía Loja – Zamora con distancia de aprox. 60 km hasta el Terminal Terrestre, luego continúe hacia el sur por una vía de segundo orden durante 7 km hasta el punto de control en el sector Bombuscaro.",
+                    "link":"TransportePage",
+                    "modelo":"7"
+                }
+            ]
+        }
+        
+        
+    ]
+}
